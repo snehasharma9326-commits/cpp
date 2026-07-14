@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+// Function to calculate factorial
+int factorial(int n) {
+    int fact = 1;
+    for(int i = 1; i <= n; i++) {
+        fact = fact * i;
+    }
+    return fact;
+}
+
+int main() {
+    int result;
+
+    result = factorial(6);  // calling function
+
+    cout << "Factorial of 6 is: " << result;
+
+    return 0;
+    \
+}
